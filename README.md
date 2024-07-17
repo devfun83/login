@@ -64,6 +64,7 @@
 <a href="https://devdream.net/board/6" target="_blank">커스텀 로그인 구현</a><br>
 <a href="https://devdream.net/board/5" target="_blank">회원가입 구현</a><br>
 <a href="https://devdream.net/board/4" target="_blank">프로젝트 생성</a><br>
+[링크 설명 텍스트](링크주소){: target="_blank"} [구글 웹싸이트 가기](http://google.com){: target="_blank"}
 <br>
 <h2>출처</h2>
 <a href="https://devdream.net" target="_blank">https://devdream.net</a>
