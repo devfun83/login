@@ -59,6 +59,8 @@
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 </code></pre>
 <h2>사이트 링크</h2>
+<a href="https://devdream.net/board/12" target="_blank">FailureHandler 구현</a><br>
+<a href="https://devdream.net/board/11" target="_blank">SuccessHandler 구현</a><br>
 <a href="https://devdream.net/board/6" target="_blank">커스텀 로그인 구현</a><br>
 <a href="https://devdream.net/board/5" target="_blank">회원가입 구현</a><br>
 <a href="https://devdream.net/board/4" target="_blank">프로젝트 생성</a><br>
