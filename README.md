@@ -64,7 +64,6 @@
    PRIMARY KEY (`ID`)
  ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
 </code></pre>
-<br>
 <h2>사이트 링크</h2>
 <a href="https://devdream.net/board/16" target="_blank">구글, 네이버 OAuth2 로그인 구현</a><br>
 <a href="https://devdream.net/board/15" target="_blank">프로젝트 생성</a><br>
