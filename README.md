@@ -1,5 +1,6 @@
 <h1>Srpng Boot 구글 SMTP를 활용한 Mustache 템플릿 메일 보내기 </h1>
-
+<h2>작성일</h2>
+2024.07.27
 <h2>개발환경</h2>
 <table class="table" style="width:420px">
     <thead>
