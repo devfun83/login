@@ -1,5 +1,6 @@
 <h1>Spring Security OAuth2 구글, 네이버 로그인 구현하기</h1>
-
+<h2>작성일</h2>
+2024.07.18
 <h2>개발환경</h2>
 <table class="table" style="width:450px">
     <thead>
