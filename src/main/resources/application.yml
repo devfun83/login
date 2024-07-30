@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: map
+    
+#mustache UTF-8
+server:
+  servlet:
+    encoding:
+      force: true
+ 
+---
+#mustache 설정
+spring:
+  mustache:
+    cache: false
+    servlet:
+      expose-request-attributes: true #mustache에서 csrf 토큰 변수 오류 발생 때문에 추가
+      expose-session-attributes: true #세션
