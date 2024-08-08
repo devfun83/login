@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: weather
+
+#mustache UTF-8
+server:
+  servlet:
+    encoding:
+      force: true
+
+---
+#mustache 설정
+spring:
+  mustache:
+    cache: false
+    servlet:
+      expose-request-attributes: true #mustache에서 csrf 토큰 변수 오류 발생 때문에 추가
+      expose-session-attributes: true #세션
+
+#기상청_단기예보 ((구)_동네예보) 조회서비스 / 초단기예보조회 / API인증키
+apiUrl: http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst
+apiKey: [일반 인증키 (Decoding)]
