@@ -33,7 +33,7 @@
                                     <tr>
                                         <td>예보지점 x값(nx)</td>
                                         <td><input type="text" id="nx" name="nx" value="" /></td>
-                                        <td>예보지점 x값(ny)</td>
+                                        <td>예보지점 y값(ny)</td>
                                         <td><input type="text" id="ny" name="ny" value="" /></td>
                                     </tr>
                                     <tr>
@@ -107,7 +107,7 @@
                         $("#baseTime").focus();
                         return false;
                     }
-
+ 
                     let data = {
                         nx: $("#nx").val()
                         , ny: $("#ny").val()
@@ -153,14 +153,14 @@
                                             arr[y][x+k+2]   = code_value(items[i].category, items[i].fcstValue);
                                             y++;
                                         }
-
+ 
                                         if (y == row) {
                                             k++;
                                             y = 0;
                                             i = 0;
                                         }
                                     }
-
+ 
                                     let headerRow = "";
                                     for (let y = 0; y < arr[0].length; y++) {
                                         headerRow = $("<tr></tr>");
